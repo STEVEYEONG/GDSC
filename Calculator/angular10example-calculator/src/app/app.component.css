@@ -1,0 +1,68 @@
+.base {
+    border: 1px solid #4285F4;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.maindisplay {
+    background: #FBBC05;
+    height: 25vh;
+    padding: 5% !important;
+    font-size: 4rem;
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: auto;
+}
+
+.subdisplay {
+    border-bottom: 1px solid #EA4335;
+    height: 25%;
+    font-size: 2rem;
+    overflow: auto;
+}
+
+.keypad {
+    height: calc(200% / 3);
+}
+
+.keys {
+    margin: 0;
+    height: 20%;
+    background: #fff;
+    color: #34A853;
+    padding: 5%;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.9;
+    border: #34A853;
+    border-radius: 5px;
+}
+
+.keys:hover {
+    opacity: 1;
+}
+
+.ackey {
+    color: #EA4335;
+    background: #34A853;
+}
+
+.equalkey {
+    color: white;
+    background-color: orangered; 
+}
+
+.numkey {
+    color: #4285F4;
+    background-color: #34A853; 
+}
+
+.opkey {
+    color: white;
+    background-color: #34A853; 
+}
