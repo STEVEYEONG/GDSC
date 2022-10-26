@@ -9,10 +9,10 @@
 }
 
 .maindisplay {
-    background: #FBBC05;
+    background: grey;
     height: 25vh;
     padding: 5% !important;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: right;
     font-family: Courier, monospace;
     overflow: auto;
@@ -21,7 +21,7 @@
 .subdisplay {
     border-bottom: 1px solid #EA4335;
     height: 25%;
-    font-size: 2rem;
+    font-size: 4rem;
     overflow: auto;
 }
 
@@ -49,7 +49,7 @@
 
 .ackey {
     color: #EA4335;
-    background: #34A853;
+    background: black;
 }
 
 .equalkey {
@@ -59,10 +59,10 @@
 
 .numkey {
     color: #4285F4;
-    background-color: #34A853; 
+    background-color: black;  
 }
 
 .opkey {
     color: white;
-    background-color: #34A853; 
+    background-color: black; 
 }
